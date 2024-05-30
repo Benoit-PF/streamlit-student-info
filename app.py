@@ -16,6 +16,6 @@ student_name_input = studenttemp_name.upper()
 student_age = st.slider("Selectionne l'âge de l'étudiant :", 1, 80,30)
 
 # Button to display the input text and age
-if st.button("Affichage Information"):
+if st.button("Affichage Information de l'étudiant",type="primary"):
     st.write("Nom de l'étudiant: ", student_name_input)
-    st.write("Age de l'étudiant: ", student_age," ans")    
+    st.write("Age de l'étudiant: ", student_age," ans")     
